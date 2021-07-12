@@ -1,26 +1,28 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background: url("../img/body.png") no-repeat center center fixed;
-  background-size: cover;
+  background: #363636;
+
 }
 
 /* ============= css related to chats =============== */
 
 .widget {
   display: none;
-  width: 350px;
-  right: 15px;
-  height: 500px;
+  width: 600px;
+  left: 37%;
+  height: 900px;
   bottom: 5%;
   position: fixed;
-  background: #fff;
+  background: black;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.16), 0 0px 5px 0 #00000096;
+  border-color: coral;
+  border: 3px;
 }
 
 .chat_header {
   height: 60px;
-  background: #060dcfc7;
+  background: green;
   border-radius: 10px 10px 0px 0px;
   padding: 5px;
   font-size: 20px;
@@ -28,9 +30,6 @@ body {
 
 .chat_header_title {
   color: white;
-  float: left;
-  margin-top: 3%;
-  margin-left: 35%;
 }
 
 .chats {
@@ -160,11 +159,13 @@ blockquote {
   border: 0;
   padding-left: 15px;
   height: 40px;
+  color: white;
 }
 
 .keypad {
   /* display: none;  */
-  background: white;
+  background: black;
+  color: white;
   height: 50px;
   position: absolute;
   bottom: 0px;
